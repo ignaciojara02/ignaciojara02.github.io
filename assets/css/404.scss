@@ -6,17 +6,17 @@ body {
   background:
     repeating-linear-gradient(
     to right, transparent, 
-    transparent 100px, 
-    white 100px, 
-    white 112px
+    transparent 150px, 
+    white 150px, 
+    white 180px
     ),
     repeating-linear-gradient(
     to bottom, transparent, 
-    transparent 100px, 
-    white 100px, 
-    white 112px
+    transparent 150px, 
+    white 150px, 
+    white 180px
     ),
-    linear-gradient(45deg, pink, skyblue);
+    linear-gradient(45deg, rgb(255, 64, 0), rgb(0, 60, 18));
 }
 
 .blank-page {
