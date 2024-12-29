@@ -53,12 +53,9 @@ input::-webkit-search-results-decoration{
 @import 'vars';
 @import 'layout';
 
-:root {
-  --pagewidth-desktop: calc(max(min(10vw - 18rem - 4rem, 54rem), 36rem))
-  ;
+:root{
+  --pagewidth-desktop:calc(max(min(100vw - #{$sidebarwd} - 2rem, #{$contentwd}), 44rem));
 }
-
-
 
 @import "sidebar";
 @import "navigation";
