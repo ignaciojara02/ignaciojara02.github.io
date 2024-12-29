@@ -2,22 +2,12 @@
 {%- assign post_counts = 0 -%}
 
 <h1 class="category-header">
-    {% if page_level == 1 %}
-        No hay posts aun :C
-    {% else %}
-        {{ category_title }}
-    {% endif %}
+    Bienvenido a mi página
 </h1>
 
-{% if category_title == "Proyectos" %}
-    <p>Bienvenido a la sección de Proyectos. Aquí encontrarás los proyectos en los que he trabajado, con detalles sobre cada uno de ellos.</p>
-{% elsif category_title == "Sobre mi" %}
-    <p>Esta es la sección donde te cuento un poco más sobre mi historia, mis intereses y lo que me motiva.</p>
-{% elsif category_title == "Educación" %}
-    <p>En esta sección, puedes conocer mi trayectoria educativa y las instituciones donde he estudiado.</p>
-{% elsif category_title == "Certificaciones" %}
-    <p>                     Aquí te comparto las certificaciones que he obtenido a lo largo de mi carrera profesional.</p>
-{% endif %}
+<p>¡Hola! Soy **Ignacio Nicolás Jara Balcázar**, estudiante de **Ciencia de Datos** y apasionado por la **meteorología**. En este espacio, encontrarás información sobre mis proyectos, mi educación y algunas certificaciones que he obtenido a lo largo de mi carrera.</p>
+
+<p>A continuación, verás algunos de los posts que he destacado por su relevancia o interés:</p>
 
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
@@ -26,9 +16,11 @@
         {% if sub_page.url contains page_url %}
         {% unless sub_page.url contains "index.html" %}
             {%- assign post_counts = post_counts | plus:1 -%}
-            <li class="paginated-item">
-                <div id="article_content">
-                    <div class="thumbnail_zone">
+
+            {% if sub_page.categories contains "Favoritos" %}
+                <li class="paginated-item">
+                    <div id="article_content">
+                        <div class="thumbnail_zone">
                             {% if sub_page.thumbnail != nil %}
                                 {%- assign thumbnail_url = sub_page.thumbnail -%}
                                 {%- assign check_localasset = thumbnail_url | split:'/' -%}
@@ -39,49 +31,29 @@
                             {% else %}
                                 <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post empty" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ '/assets/img/thumbnail/empty.jpg' | prepend: site.baseurl }}') !important"></a>
                             {% endif %}
-                    </div>
-                    <div class="box_contents">
-                        <a href="{{ sub_page.url | prepend: site.baseurl }}"><h1 class="title_post">{{ sub_page.title }}</h1></a>
-                        <a href="{{ sub_page.url | prepend: site.baseurl }}" class="txt_post">
-                            {{ sub_page.content | markdownify | strip_html }}
-                        </a>
-                        <div class="info-post">
-                            {%- assign sub_page_tree = sub_page.path | split: "/" -%}
-                            {% if sub_page_tree.size > 2 %}
-                                <a href="{{ '/' | append: sub_page_tree[1] | prepend: site.baseurl }}" class="category">{{ sub_page_tree[1] }}</a>
-                            {% else %}
-                                <span class="category">None</span>
-                            {% endif %}
-                            {%- assign posting_date = sub_page.date | date: "%Y-%m-%d" -%}
-                            {% if posting_date != "1900-01-01" %}
+                        </div>
+                        <div class="box_contents">
+                            <a href="{{ sub_page.url | prepend: site.baseurl }}"><h1 class="title_post">{{ sub_page.title }}</h1></a>
+                            <a href="{{ sub_page.url | prepend: site.baseurl }}" class="txt_post">
+                                {{ sub_page.content | markdownify | strip_html }}
+                            </a>
+                            <div class="info-post">
+                                <span class="category">{{ sub_page.categories | join: ", " }}</span>
                                 <span class="date">· {{ sub_page.date | date: "%Y-%m-%d" }}</span>
-                            {% endif %}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
+            {% endif %}
         {% endunless %}
         {% endif %}
     {%- endfor -%}
     </ul>
+
     {% if post_counts == 0 %}
         <div class="no-posts">
-            <img src="{{ '/assets/img/sorry.png'' | prepend: site.baseurl }}"></img>
-            <h1>No pasa nada</h1>
+            <img src="{{ '/assets/img/sorry.png' | prepend: site.baseurl }}"></img>
+            <h1>No hay posts destacados aún</h1>
         </div>
     {% endif %}
-</div>
-
-<div class="pagination">
-    <nav class="pagination-container">
-        <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
-            &lt;
-        </button>
-    
-        <div id="pagination-numbers"></div>
-      
-        <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
-            &gt;
-        </button>
-    </nav>
 </div>
