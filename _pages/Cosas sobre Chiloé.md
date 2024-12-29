@@ -1,7 +1,6 @@
 ---
 title: "Alimentación en Chiloé."
 date: "2024-02-02"
-bookmark: true
 categories:
   - Favoritos
 ---
@@ -36,7 +35,3 @@ Los mariscos son esenciales en la dieta chilota, debido a la **riqueza marina** 
 - **Patas de cangrejo**
 
 Estos mariscos no solo son deliciosos, sino que tienen un **valor simbólico** y cultural en la comunidad, ya que son parte integral de las fiestas y celebraciones.
-
-```html
-<!-- Aquí podrías incluir una imagen del curanto o mariscos frescos -->
-<img src="curanto.jpg" alt="Curanto en Chiloé">
