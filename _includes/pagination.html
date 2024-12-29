@@ -8,6 +8,18 @@
         {{ category_title }}
     {% endif %}
 </h1>
+
+<!-- Agregar un texto introductorio antes de la lista -->
+{% if category_title == "Proyectos" %}
+    <p>Bienvenido a la sección de Proyectos. Aquí encontrarás los proyectos en los que he trabajado, con detalles sobre cada uno de ellos.</p>
+{% elsif category_title == "Sobre mi" %}
+    <p>Esta es la sección donde te cuento un poco más sobre mi historia, mis intereses y lo que me motiva.</p>
+{% elsif category_title == "Educación" %}
+    <p>En esta sección, puedes conocer mi trayectoria educativa y las instituciones donde he estudiado.</p>
+{% elsif category_title == "Certificaciones" %}
+    <p>Aquí te comparto las certificaciones que he obtenido a lo largo de mi carrera profesional.</p>
+{% endif %}
+
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
     {%- for sub_page in list_pages -%}
@@ -56,10 +68,11 @@
     {% if post_counts == 0 %}
         <div class="no-posts">
             <img src="{{ '/assets/img/sorry.png'' | prepend: site.baseurl }}"></img>
-            <h1>no pasa nada</h1>
+            <h1>No pasa nada</h1>
         </div>
     {% endif %}
 </div>
+
 <div class="pagination">
     <nav class="pagination-container">
         <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
