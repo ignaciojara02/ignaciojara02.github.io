@@ -7,7 +7,6 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A continuación verás algunos de los posts que he destacado por su relevancia o interés:</p>
 
-
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
     {%- for sub_page in list_pages -%}
@@ -34,7 +33,7 @@
                         <div class="box_contents">
                             <a href="{{ sub_page.url | prepend: site.baseurl }}"><h1 class="title_post">{{ sub_page.title }}</h1></a>
                             <a href="{{ sub_page.url | prepend: site.baseurl }}" class="txt_post">
-                                {{ sub_page.content | markdownify | strip_html }}
+                                {{ sub_page.content | markdownify | strip_html | truncatewords: 50 }}
                             </a>
                             <div class="info-post">
                                 <span class="category">{{ sub_page.categories | join: ", " }}</span>
@@ -50,10 +49,11 @@
 
     {% if post_counts == 0 %}
         <div class="no-posts">
-            <img src="{{ '/assets/img/sorry.png' | prepend: site.baseurl }}"></img>
+            <img src="{{ '/assets/img/sorry.png' | prepend: site.baseurl }}" alt="No posts found">
             <h1>No hay posts destacados aún</h1>
         </div>
     {% endif %}
 </div>
+
 
 
