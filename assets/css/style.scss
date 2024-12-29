@@ -57,6 +57,18 @@ input::-webkit-search-results-decoration{
   --pagewidth-desktop: calc(max(min(80vw - #{$sidebarwd} - 4rem, #{$contentwd}), 36rem));
 }
 
+#category-list {
+  max-width: 600px; /* Ajusta el ancho máximo deseado */
+  margin: 0 auto;   /* Centra el contenedor */
+  padding: 0 15px;  /* Opcional: margen interno para que no toque los bordes */
+}
+
+.category-header,
+#category-list p {
+  text-align: center; /* Centra el texto si lo deseas */
+}
+
+
 @import "sidebar";
 @import "navigation";
 @import "pagination";
