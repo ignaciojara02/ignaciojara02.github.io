@@ -54,8 +54,9 @@ input::-webkit-search-results-decoration{
 @import 'layout';
 
 :root {
-  --pagewidth-desktop: calc(max(min(80vw - #{$sidebarwd} - 4rem, #{$contentwd}), 36rem));
+  --pagewidth-desktop: calc(max(min(8vw - 10rem - 2rem, 48rem), 28rem));
 }
+
 
 .category-header {
   max-width: 600px; /* Ajusta el ancho máximo deseado */
