@@ -2,6 +2,8 @@
 title: "Alimentación en Chiloé."
 date: "2024-02-02"
 bookmark: true
+categories:
+  - Favoritos
 ---
 
 # Alimentación en Chiloé: Un Viaje Gastronómico Único
