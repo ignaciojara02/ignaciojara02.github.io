@@ -4,20 +4,19 @@
 }
 
 .inner-header {
-  display: none;
-  background: linear-gradient(180deg, rgba(240, 240, 240, 1) 0%, rgba(224, 224, 224, 1) 100%);
-  border-radius: 1rem 1rem 0 0;
-  padding: 8px 16px;
+  display:none;
+  background:linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(224,224,224,1) 100%);
+  border-radius:1rem 1rem 0 0;
+  padding:8px 16px;
 
   .dot {
-    height: 1rem;
-    width: 1rem;
-    margin: 0 4px;
-    border-radius: 50%;
-    display: inline-block;
+    height:1rem;
+    width:1rem;
+    margin:0 4px;
+    border-radius:50%;
+    display:inline-block;
   }
 }
-
 
 .inner-content {
   background:#fff;
@@ -83,21 +82,21 @@
   position:relative;
   transition:all .5s;
 
-  background: 
+  background:
   linear-gradient(
-    to right, 
-    rgba(190, 144, 212, 1), /* Violeta claro */
-    rgba(190, 144, 212, 1) /* Violeta claro */
+    to right,
+    rgba(100, 200, 200, 1),
+    rgba(100, 200, 200, 1)
   ),
   linear-gradient(
-    to right, 
-    rgba(255, 0, 150, 1),  /* Fucsia vibrante */
-    rgba(200, 0, 255, 1),  /* Púrpura intenso */
-    rgba(120, 0, 200, 1)   /* Violeta oscuro */
-);
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
+    to right,
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 180, 1),
+    rgba(0, 100, 200, 1)
+  );
+  background-size:100% 3px, 0 3px;
+  background-position:100% 100%, 0 100%;
+  background-repeat:no-repeat;
 
   &:hover {
     background-size:0 3px, 100% 3px;
@@ -156,20 +155,16 @@
 }
 
 .theme-0 {
-  background: hsl(280, 65%, 60%); /* Violeta claro */
-  &::before { border-color: transparent hsl(280, 65%, 60%) transparent transparent; } 
+  background:hsl(50, 65%, 50%);
+  &::before { border-color:transparent hsl(50, 65%, 50%) transparent transparent; } 
 }
 .theme-1 { 
-  background: hsl(300, 65%, 50%); /* Fucsia intenso */
-  &::before { border-color: transparent hsl(300, 65%, 50%) transparent transparent; }
+  background:hsl(360, 65%, 50%);
+  &::before { border-color:transparent hsl(360, 65%, 50%) transparent transparent; }
 }
 .theme-2 { 
-  background: hsl(260, 65%, 55%); /* Púrpura suave */
-  &::before { border-color: transparent hsl(260, 65%, 55%) transparent transparent; }
-}
-.theme-3 { 
-  background: hsl(320, 65%, 55%); /* Fucsia vibrante */
-  &::before { border-color: transparent hsl(320, 65%, 55%) transparent transparent; }
+  background:hsl(200, 65%, 50%);
+  &::before { border-color:transparent hsl(200, 65%, 50%) transparent transparent; }
 }
 
 main {
