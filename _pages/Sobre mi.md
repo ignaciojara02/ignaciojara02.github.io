@@ -4,7 +4,7 @@ date: "02-02-2014"
 bookmark: true
 categories:
   - Favoritos
-thumbnail: "nightgardenflower.jpg"
+thumbnail: "/assets/img/thumbnail/nightgardenflower.jpg"
 ---
 
 # Sobre mí
