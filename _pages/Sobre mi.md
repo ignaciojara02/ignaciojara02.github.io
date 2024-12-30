@@ -1,5 +1,5 @@
 ---
-title: "Ignacio Jara"
+title: "Acerca de mi"
 date: "02-02-2014"
 bookmark: true
 categories:
