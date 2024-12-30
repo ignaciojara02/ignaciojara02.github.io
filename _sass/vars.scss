@@ -52,6 +52,14 @@ $mediawd: (
   --color-border: #{$color-border};
   --color-shadow: #{$color-shadow};
   
+  // _variables.scss
+$base-color: hsl(220, 60%, 50%); // Azul base
+$light-color: hsl(220, 60%, 90%); // Azul claro
+$dark-color: hsl(220, 60%, 20%); // Azul oscuro
+$hover-color: hsl(220, 60%, 40%); // Azul para hover
+$gradient-start: hsl(220, 60%, 60%);
+$gradient-end: hsl(220, 60%, 40%);
+
   // Legacy colors
   --color-wenge: #{$color-wenge};
   --color-beige: #{$color-beige};
