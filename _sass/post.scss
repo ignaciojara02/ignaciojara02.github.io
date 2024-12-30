@@ -4,19 +4,20 @@
 }
 
 .inner-header {
-  display:none;
-  background:linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(224,224,224,1) 100%);
-  border-radius:1rem 1rem 0 0;
-  padding:8px 16px;
+  display: none;
+  background: linear-gradient(180deg, rgba(240, 240, 240, 1) 0%, rgba(224, 224, 224, 1) 100%);
+  border-radius: 1rem 1rem 0 0;
+  padding: 8px 16px;
 
   .dot {
-    height:1rem;
-    width:1rem;
-    margin:0 4px;
-    border-radius:50%;
-    display:inline-block;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 4px;
+    border-radius: 50%;
+    display: inline-block;
   }
 }
+
 
 .inner-content {
   background:#fff;
