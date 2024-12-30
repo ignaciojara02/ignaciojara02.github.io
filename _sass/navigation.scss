@@ -146,22 +146,24 @@
 
 .nav-lh {
   &:before {
-    content:"";
-    position:absolute;
-    display:block;
-    left:0;
-    border-radius:1.5rem;
-    background:rgba(gold, .375);
-    width:3rem;
-    height:3rem;
-    transition:.3s;
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    border-radius: 1.5rem;
+    background: rgba(255, 215, 0, 0.375); // Dorado suave con opacidad
+    width: 3rem;
+    height: 3rem;
+    transition: .3s;
   }
   &:hover:before {
-    width:105%;
-    background:gold;
+    width: 105%;
+    background: #ffd700; // Dorado brillante
   }
 
-  svg { transform:none; }
+  svg {
+    transform: none;
+  }
 }
 
 .nav-list-expander {
