@@ -1,87 +1,73 @@
-:root {
-  --color-background: #ffffff;
-  --color-border: #E2E8F0;
-  --color-shadow: rgba(45, 50, 80, 0.1);
-  --color-background-rgb: 255, 255, 255;
-}
-
-#category-list {
-  width: 100%;
-}
+#category-list { width:100%; }
 
 .category-tree {
-  margin: 0 8px;
-  position: relative;
-  font-size: 0.875rem;
+  margin:0 8px;
+  position:relative;
+  font-size:0.875rem;
 
   p {
-    margin: 0;
-    padding: 1rem 0 1rem 1.5rem;
-    line-height: 150%;
-    font-weight: bold;
-    color: var(--color-border); /* Cambiado por la variable */
+    margin:0;
+    padding:1rem 0 1rem 1.5rem;
+    line-height:150%;
+    font-weight:bold;
+    color:slategrey;
   }
 
   a {
-    color: var(--color-shadow); /* Cambiado por la variable */
-    text-decoration: none;
+    color:dodgerblue;
+    text-decoration:none;
   }
 
   svg {
-    position: absolute;
-    display: inline-flex;
-    top: 18px;
-    width: 14px;
+    position:absolute;
+    display:inline-flex;
+    top:18px;
+    width:14px;
   }
 }
 
 .category-header {
-  margin: 0 8px 24px 8px;
-  font-weight: 600;
-  border-bottom: 1px solid var(--color-border); /* Cambiado por la variable */
-  text-decoration: underline;
-  text-underline-offset: 12px;
-  padding-bottom: 8px;
+  margin:0 8px 24px 8px;
+  font-weight:600;
+  border-bottom:1px solid lightgrey;
+  text-decoration:underline dimgrey;
+  text-underline-offset:12px;
+  padding-bottom:8px;
 }
 
 .paginated-list {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 .paginated-item {
-  list-style-type: none;
-  height: fit-content;
+  list-style-type:none;
+  height:fit-content;
 }
 
 #article_content {
-  border-bottom: 2px solid var(--color-border); /* Cambiado por la variable */
+  border-bottom:2px solid lightgrey;
 
   .thumbnail_post {
-    display: block;
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 100%;
-    aspect-ratio: 5/3;
-    border-radius: 0;
+    display:block;
+    background-size:cover;
+    background-position:50% 50%;
+    width:100%;
+    aspect-ratio:5/3;
+    border-radius:0;
 
-    &:hover {
-      opacity: 0.8;
-    }
+    &:hover { opacity:0.8; }
   }
 
-  .empty {
-    opacity: 0.5;
-  }
+  .empty { opacity:0.5; }
 
   .box_contents {
     margin: 12px;
     position: relative;
     overflow: hidden;
-    background-color: var(--color-background); /* Cambiado por la variable */
   }
 
   a {
-    text-decoration: none;
+    text-decoration: none
   }
 
   .info-post {
@@ -110,7 +96,7 @@
     display: -webkit-box;
     margin-bottom: 12px;
     font-size: 0.875rem;
-    color: var(--color-border); /* Cambiado por la variable */
+    color: var(grey); /* Cambiado por la variable */
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
