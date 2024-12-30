@@ -89,7 +89,7 @@
     color: var(lightgrey); /* Cambiado por la variable */
   }
   .category {
-    color: var(--color-border) !important; /* Cambiado por la variable */
+    color: var(rgb(220, 128, 208)) !important; /* Cambiado por la variable */
   }
 
   .txt_post {
@@ -143,11 +143,11 @@
 }
 .pagination-number:hover,
 .pagination-button:not(.disabled):hover {
-  background: var(--color-background); /* Cambiado por la variable */
+  background:#fff;
 }
 .pagination-number.active {
-  color: var(--color-background); /* Cambiado por la variable */
-  background: var(--color-shadow); /* Cambiado por la variable */
+  color:#fff;
+  background:#0085b6;
 }
 
 @include mq(tablet) {
@@ -181,13 +181,13 @@
   }
 
   #article_content {
-    display: flex;
-    transition: 0.3s;
-    box-shadow: 0 1px 1px 0 var(--color-shadow); /* Cambiado por la variable */
-
+    display:flex;
+    transition:.3s;
+    box-shadow:0 1px 1px 0 rgba(31, 35, 46, .15);
+  
     &:hover {
-      transform: translate(0px, -4px);
-      box-shadow: 0 15px 45px -10px var(--color-shadow); /* Cambiado por la variable */
+      transform:translate(0px, -4px);
+      box-shadow:0 15px 45px -10px rgba(10, 16, 34, .2);
     }
 
     .thumbnail_post {
@@ -201,7 +201,8 @@
       width: 100%;
       margin: auto 0 auto -5rem;
       padding: 8px 24px;
-      background-color: rgba(var(--color-background-rgb), 0.95); /* Cambiado por la variable */
+      background-color: (rgba(255,255,255,0.95)); /* Cambiado por la variable */
+      background-image:url($baseurl + "/assets/img/tile.png");
       border-radius: 6px;
     }
 
