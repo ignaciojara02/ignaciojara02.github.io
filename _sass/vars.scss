@@ -1,15 +1,62 @@
+// Primary Colors
+$color-primary: #2D3250;      // Deep navy blue
+$color-primary-light: #424769; // Navy blue
+$color-primary-dark: #1E1E2E;  // Darker navy
+
+// Secondary Colors
+$color-secondary: #7077A1;    // Muted purple
+$color-accent: #F6B17A;       // Soft orange
+
+// Text Colors
+$color-text: #2D3250;         // Main text color
+$color-text-light: #676F9D;   // Secondary text
+
+// Background Colors
+$color-background: #ffffff;    // Main background
+$color-background-alt: #F7F7F9; // Alternative background
+
+// UI Colors
+$color-border: #E2E8F0;       // Border color
+$color-shadow: rgba(45, 50, 80, 0.1); // Shadow color
+
+// Legacy Colors (consider replacing these in your codebase)
 $color-wenge: #e1007c;
 $color-beige: #a5cd14;
 $color-darkbrown: #b9cd39;
 $color-darkorange: #1cad67;
 $color-rose: #a81622;
 $color-aqua: #10a4a4;
+
+// Layout
 $sidebarwd: 18rem;
 $contentwd: 54rem;
 
+// Media Breakpoints
 $mediawd: (
   mobile: 320px,
   tablet: 769px,
   desktop: 1025px,
   wide: 1441px,
 ) !default;
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-light: #{$color-primary-light};
+  --color-primary-dark: #{$color-primary-dark};
+  --color-secondary: #{$color-secondary};
+  --color-accent: #{$color-accent};
+  --color-text: #{$color-text};
+  --color-text-light: #{$color-text-light};
+  --color-background: #{$color-background};
+  --color-background-alt: #{$color-background-alt};
+  --color-border: #{$color-border};
+  --color-shadow: #{$color-shadow};
+  
+  // Legacy colors
+  --color-wenge: #{$color-wenge};
+  --color-beige: #{$color-beige};
+  --color-darkbrown: #{$color-darkbrown};
+  --color-darkorange: #{$color-darkorange};
+  --color-rose: #{$color-rose};
+  --color-aqua: #{$color-aqua};
+}
