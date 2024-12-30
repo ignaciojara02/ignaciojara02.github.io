@@ -1,63 +1,79 @@
 .toc {
-  position:fixed;
-  top:6rem;
+  position: fixed;
+  top: 6rem;
   display: none;
 }
 
 .toc-header {
-  font-size:1.25rem;
-  font-weight:600;
-  padding:0 0 4px 12px;
-  border-bottom:burlywood 2px solid;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0 0 4px 12px;
+  border-bottom: 2px solid hsl(300, 50%, 60%); // Violeta medio para el borde
 
   svg { 
-    width:16px;
-    display:inline-flex;
-    transform:translateY(2px);
+    width: 16px;
+    display: inline-flex;
+    transform: translateY(2px);
+    fill: hsl(300, 50%, 60%); // Violeta medio para el ícono
   }
 }
 
 .toc-board {
-  max-width:#{$sidebarwd};
+  max-width: #{$sidebarwd};
   margin: 1rem 0 1rem 2rem !important;
 }
 
 .toc-board, .toc-list {
-  font-size:1.125rem;
-  padding:0;
+  font-size: 1.125rem;
+  padding: 0;
   margin: 0 auto;
 
-  li a { display:inline-block; }
-  li:last-child { margin-bottom:0; }
+  li a { 
+    display: inline-block;
+    color: hsl(300, 50%, 50%); // Violeta medio para enlaces
+    transition: color 0.3s ease;
+  }
 
-  .node-name--H1 { margin-top:8px; }
+  li:last-child { margin-bottom: 0; }
+
+  .node-name--H1 { 
+    margin-top: 8px;
+    font-size: 1.5rem; // Aumentamos el tamaño de los encabezados
+    color: hsl(300, 50%, 40%); // Violeta fuerte para los H1
+  }
+  
   .node-name--H2 {
-    font-size:1rem;
-    margin-top:6px;
-    padding-left:16px;
+    font-size: 1rem;
+    margin-top: 6px;
+    padding-left: 16px;
+    color: hsl(300, 50%, 55%); // Violeta medio para los H2
   }
 
   .toc-list-item {
-    word-break:normal;
-    line-height:150%;
+    word-break: normal;
+    line-height: 150%;
 
     a { 
-      animation:.5s ease-out 0s 1 slide;
+      animation: .5s ease-out 0s 1 slide;
       cursor: pointer;
     }
 
     @keyframes slide {
-      0% { transform:scaleY(0); }
-      100% { transform:scaleY(1); }
+      0% { transform: scaleY(0); }
+      100% { transform: scaleY(1); }
     }
   }
-   
-  .is-active-link{
-    color:indianred !important;
-    font-weight:950;
+
+  .is-active-link {
+    color: hsl(350, 100%, 50%) !important; // Dorado fuerte para el enlace activo
+    font-weight: 950;
+  }
+
+  li a:hover {
+    color: hsl(300, 50%, 70%); // Violeta más claro para hover
   }
 }
 
-@include mq(wide){
-  .toc{ display: block; }
+@include mq(wide) {
+  .toc { display: block; }
 }
