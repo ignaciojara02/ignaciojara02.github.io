@@ -2,59 +2,116 @@
 ---
 $baseurl: "{{ site.baseurl }}";
 
+// Define color system at the root level
+:root {
+  // Primary Colors
+  --color-primary: #2D3250;      // Deep navy blue
+  --color-primary-light: #424769; // Navy blue
+  --color-primary-dark: #1E1E2E;  // Darker navy
+  
+  // Secondary Colors
+  --color-secondary: #7077A1;    // Muted purple
+  --color-accent: #F6B17A;       // Soft orange
+  
+  // Text Colors
+  --color-text: #2D3250;         // Main text color
+  --color-text-light: #676F9D;   // Secondary text
+  
+  // Background Colors
+  --color-background: #ffffff;    // Main background
+  --color-background-alt: #F7F7F9; // Alternative background
+  
+  // UI Colors
+  --color-border: #E2E8F0;       // Border color
+  --color-shadow: rgba(45, 50, 80, 0.1); // Shadow color
+}
+
 html, body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 .fonts-loaded {
-  a, span, p { font-family:"Nunito Sans", 'Lucida Sans', sans-serif; }
-  h1, h2, h3 { font-family:"Lato", Helvetica, sans-serif; }
-  mark { font-family:'Righteous', sans-serif; }
+  a, span, p { 
+    font-family: "Nunito Sans", 'Lucida Sans', sans-serif;
+  }
+  h1, h2, h3 { 
+    font-family: "Lato", Helvetica, sans-serif;
+  }
+  mark { 
+    font-family: 'Righteous', sans-serif;
+  }
 }
 
-a { text-decoration:none; }
-a, span, p, h1, h2, h3, i { color:#3A241A; }
-a, span, p { font-family:'Lucida Sans', sans-serif; }
-h1, h2, h3, mark {
-  margin:0;
-  font-family:Helvetica, sans-serif;
+a { 
+  text-decoration: none;
+  color: var(--color-secondary);
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: var(--color-accent);
+  }
 }
-mark { background-color:transparent; }
+
+span, p { 
+  color: var(--color-text);
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+h1, h2, h3 { 
+  color: var(--color-primary);
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+mark { 
+  background-color: transparent;
+  color: var(--color-accent);
+  font-family: Helvetica, sans-serif;
+}
 
 svg {
-  width:16px;
-  aspect-ratio:1.0;
-  fill:#3A241A;
-  display:block;
-  margin:auto;
+  width: 16px;
+  aspect-ratio: 1.0;
+  fill: var(--color-primary);
+  display: block;
+  margin: auto;
+  transition: fill 0.2s ease;
+  
+  &:hover {
+    fill: var(--color-accent);
+  }
 }
 
 button {
-  border:none;
-  background:none;
-  padding:0;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 /* Disable default input cancel button */
 input::-ms-clear,
-input::-ms-reveal{
-	display:none;
-  width:0;
-  height:0;
+input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
 }
+
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button,
 input::-webkit-search-results-button,
-input::-webkit-search-results-decoration{
-	display:none;
+input::-webkit-search-results-decoration {
+  display: none;
 }
 
 @import 'vars';
 @import 'layout';
 
-:root{
-  --pagewidth-desktop:calc(max(min(100vw - #{$sidebarwd} - 2rem, #{$contentwd}), 44rem));
+:root {
+  --pagewidth-desktop: calc(max(min(100vw - #{$sidebarwd} - 2rem, #{$contentwd}), 44rem));
 }
 
 @import "sidebar";
