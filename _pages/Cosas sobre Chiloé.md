@@ -2,7 +2,6 @@
 title: "Alimentación en Chiloé."
 date: "2024-02-02"
 categories:
-  - Favoritos
 thumbnail: "/assets/img/thumbnail/106610-visita-chile-16.jpg"
 ---
 

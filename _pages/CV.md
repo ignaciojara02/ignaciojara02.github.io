@@ -3,17 +3,16 @@ title: "Curriculum Vitae"
 date: "02-02-2014"
 bookmark: true
 ---
-# Curriculum Vitae
+# 📄Curriculum Vitae
 
-# 📄 Currículum
 
 Encuentra aquí mi currículum actualizado en los siguientes idiomas:
 
-- [📘 Currículum en Español](URL_DEL_PDF_ES)  
-  _Versión en español con detalles de mi formación, experiencia y habilidades._
+- [📘 Currículum en Español](https://drive.google.com/file/d/1jE02LnQd-xL5_4OBoSq4OKMdL5repwaV/view?usp=sharing)  
+  _Versión en español._
 
-- [📗 Currículum en Inglés](URL_DEL_PDF_EN)  
-  _Versión en inglés para oportunidades internacionales._
+- [📗 English CV](https://drive.google.com/file/d/1UFs2BsG92gZ_DePnhPbaAOnr6oeo65Yl/view?usp=sharing)  
+  _English version._
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Certificaciones"
-bookmark: true
+bookmark:
 date: "2023-12-29"
 ---
 # Certificaciones
