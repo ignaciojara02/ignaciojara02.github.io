@@ -5,24 +5,23 @@ bookmark: true
 ---
 #  Mis Proyectos
 
-## 📂 Proyecto 1: **Nombre del Proyecto**
-![Imagen del Proyecto](URL_DE_LA_IMAGEN)  
-**Resumen**: Breve descripción del proyecto. Aquí puedes incluir qué problema resuelve, las tecnologías utilizadas, y qué aprendiste o lograste desarrollándolo.  
+## 📂 Proyecto 1: MIP LATAM 2011**
 
-🔗 [Ver en GitHub](URL_DEL_REPOSITORIO)
+**Resumen**: Repasamos varios conceptos de Algebra Lineal Computacional y posteriormente realizamos un análisis de componentes principales de la matriz insumo-producto latinoamericana. 
 
----
+![Imagen](/assets/img/屏幕截图%202024-12-30%20232122.jpg)
 
-## 📂 Proyecto 2: **Nombre del Proyecto**
-![Imagen del Proyecto](URL_DE_LA_IMAGEN)  
-**Resumen**: Breve descripción del proyecto. Aquí puedes incluir qué problema resuelve, las tecnologías utilizadas, y qué aprendiste o lograste desarrollándolo.  
-
-🔗 [Ver en GitHub](URL_DEL_REPOSITORIO)
+🔗 [Ver en GitHub](https://github.com/ignaciojara02/Proyecto-1)
 
 ---
 
-## 📂 Proyecto 3: **Nombre del Proyecto**
-![Imagen del Proyecto](URL_DE_LA_IMAGEN)  
-**Resumen**: Breve descripción del proyecto. Aquí puedes incluir qué problema resuelve, las tecnologías utilizadas, y qué aprendiste o lograste desarrollándolo.  
+## 📂 Proyecto 2: Transporte público en Argentina
+ 
+**Resumen**: Hice un 
 
-🔗 [Ver en GitHub](URL_DEL_REPOSITORIO)
+![Imagen](/assets/img/Transporte1.jpg)
+
+🔗 [Ver en GitHub](https://github.com/ignaciojara02/Matrices-Insumo-Producto)
+
+---
+
