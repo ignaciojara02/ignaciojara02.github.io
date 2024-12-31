@@ -8,16 +8,14 @@ bookmark: true
 
 Puedes encontrarme en las siguientes plataformas:
 
-- [🐦 Twitter](https://twitter.com/tu_usuario)  
-  _Comparto reflexiones, novedades y temas que me interesan._
 
-- [🐙 GitHub](https://github.com/tu_usuario)  
+- [🐙 GitHub](https://github.com/ignaciojara02)  
   _Explora mis proyectos y colaboraciones en programación._
 
-- [📸 Instagram](https://instagram.com/tu_usuario)  
-  _Un vistazo a mis intereses personales y mi día a día._
+- [📸 Instagram](https://instagram.com/nachi.jara)  
+  
 
-- [💼 LinkedIn](https://linkedin.com/in/tu_usuario)  
+- [💼 LinkedIn](https://linkedin.com/in/ignacio-nicolas-jara-balcazar)  
   _Conecta conmigo para oportunidades profesionales._
 
 ---

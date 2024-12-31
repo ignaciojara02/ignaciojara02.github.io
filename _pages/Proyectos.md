@@ -3,7 +3,7 @@ title: Mis proyectos
 date: "2023-12-29"
 bookmark: true
 ---
-# 🚀 Mis Proyectos
+#  Mis Proyectos
 
 ## 📂 Proyecto 1: **Nombre del Proyecto**
 ![Imagen del Proyecto](URL_DE_LA_IMAGEN)  
