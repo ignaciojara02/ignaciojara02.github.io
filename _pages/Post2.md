@@ -6,8 +6,8 @@ categories:
 tags: 
     - Estudio
     - Tiempo
-    
-thumbnail: "/assets/img/thumbnail/gestiontiempo.jpeg"
+
+thumbnail: "/assets/img/thumbnail/gestiontiempo.png"
 ---
 
 # ¿Cómo organizar mejor tus tiempos?

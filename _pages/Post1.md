@@ -6,8 +6,8 @@ categories:
 tags: 
     - Estudio
     - Idiomas
-    
-thumbnail: "/assets/img/thumbnail/fotochina.jpeg"
+
+thumbnail: "/assets/img/thumbnail/fotochina.png"
 ---
 
 # ¿Por qué decidí estudiar chino?
