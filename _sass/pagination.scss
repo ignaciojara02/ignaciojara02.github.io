@@ -236,9 +236,12 @@
   }
 
   .small-header {
-    font-size: 15px;
+    font-size: 18px; /* Un tamaño de fuente más adecuado */
     margin: 0 3rem 4rem 3rem;
+    text-align: justify; /* Justifica el texto */
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */ /* Fuentes legibles para el contenido */
   }
+  
 
   .paginated-item {
     height: 15rem;
