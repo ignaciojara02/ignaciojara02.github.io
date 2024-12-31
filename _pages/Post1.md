@@ -6,6 +6,7 @@ categories:
 tags: 
     - Estudio
     - Idiomas
+    
 thumbnail: "/assets/img/thumbnail/fotochina.jpeg"
 ---
 

@@ -6,9 +6,10 @@ categories:
 tags: 
     - Estudio
     - Tiempo
+    
 thumbnail: "/assets/img/thumbnail/gestiontiempo.jpeg"
 ---
 
-# ¿Por qué decidí estudiar chino?
+# ¿Cómo organizar mejor tus tiempos?
 
 bla bla bla bla :)
