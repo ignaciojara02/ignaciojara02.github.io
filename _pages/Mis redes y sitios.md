@@ -10,13 +10,15 @@ Puedes encontrarme en las siguientes plataformas:
 
 
 - [🐙 GitHub](https://github.com/ignaciojara02)  
-  _Explora mis proyectos y colaboraciones en programación._
 
 - [📸 Instagram](https://instagram.com/nachi.jara)  
   
 
 - [💼 LinkedIn](https://linkedin.com/in/ignacio-nicolas-jara-balcazar)  
-  _Conecta conmigo para oportunidades profesionales._
+
+- nachojara2008@hotmail.com
+
+- +5491165076370
 
 ---
 

@@ -11,17 +11,7 @@ bookmark: true
 
 ![Imagen](/assets/img/屏幕截图%202024-12-30%20232122.jpg)
 
-🔗 [Ver en GitHub](https://github.com/ignaciojara02/Proyecto-1)
-
----
-
-## 📂 Proyecto 2: Transporte público en Argentina
- 
-**Resumen**: Hice un 
-
-![Imagen](/assets/img/Transporte1.jpg)
-
-🔗 [Ver en GitHub](https://github.com/ignaciojara02/Matrices-Insumo-Producto)
+🔗 [Ver en GitHub](https://github.com/ignaciojara02/Matrices-Insumo-Producto)(https://github.com/ignaciojara02/Proyecto-1)
 
 ---
 
