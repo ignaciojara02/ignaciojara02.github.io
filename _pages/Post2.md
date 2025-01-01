@@ -1,8 +1,6 @@
 ---
 title: Organización
 date: "12-12-2013"
-categories:
-  - Favoritos
 tags: 
     - Estudio
     - Tiempo
