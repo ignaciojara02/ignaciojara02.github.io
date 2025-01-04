@@ -8,7 +8,7 @@ bookmark: true
 
 Encuentra aquí mi currículum actualizado en los siguientes idiomas:
 
-- [📘 Currículum en Español](https://drive.google.com/file/d/1jE02LnQd-xL5_4OBoSq4OKMdL5repwaV/view?usp=sharing)  
+- [📘 Currículum en Español](https://drive.google.com/file/d/1zQBWJx89ejYitysk14tEA4NTINpOZR21/view?usp=sharing)  
   _Versión en español._
 
 - [📗 English CV](https://drive.google.com/file/d/1UFs2BsG92gZ_DePnhPbaAOnr6oeo65Yl/view?usp=sharing)  
